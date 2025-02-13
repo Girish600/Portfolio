@@ -35,19 +35,19 @@ const Navbar = () => {
       </div>
       {showNav && (
         <ul className="flex flex-col justify-center h-screen w-full absolute top-0 left-0 items-center bg-gradient-to-b from-black to-gray-800 text-gray-500">
-          <li className="px-4 cursor-pointer py-6 capitalize text-4xl">Home</li>
-          <li className="px-4 cursor-pointer py-6 capitalize text-4xl">
+          <NavLink to={'/'} onClick={() => setShowNav(!showNav)} className="px-4 cursor-pointer py-6 capitalize text-4xl">Home</NavLink>
+          <NavLink to={'/about'} onClick={() => setShowNav(!showNav)} className="px-4 cursor-pointer py-6 capitalize text-4xl">
             About
-          </li>
-          <li className="px-4 cursor-pointer py-6 capitalize text-4xl">
+          </NavLink>
+          <NavLink to={'/portfolio'} onClick={() => setShowNav(!showNav)} className="px-4 cursor-pointer py-6 capitalize text-4xl">
             PortFolio
-          </li>
-          <li className="px-4 cursor-pointer py-6 capitalize text-4xl">
+          </NavLink>
+          <NavLink to={'/expeirence'} onClick={() => setShowNav(!showNav)} className="px-4 cursor-pointer py-6 capitalize text-4xl">
             Expeirence
-          </li>
-          <li className="px-4 cursor-pointer py-6 capitalize text-4xl">
+          </NavLink>
+          <NavLink to={'/contact'} onClick={() => setShowNav(!showNav)} className="px-4 cursor-pointer py-6 capitalize text-4xl">
             Contact
-          </li>
+          </NavLink>
         </ul>
       )}
     </div>
