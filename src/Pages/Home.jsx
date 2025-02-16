@@ -15,7 +15,9 @@ const Home = () => {
       <Expeirence />
       <Contact />
 
+
       <SocialLinks />
+
     </div>
   );
 };

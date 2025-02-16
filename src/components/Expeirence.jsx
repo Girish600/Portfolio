@@ -1,56 +1,70 @@
 import React from "react";
-import image from "../assets/portfolio/pexels.jpg";
+import html from "../assets/portfolio/html.png";
+import css from "../assets/portfolio/css.png";
+import javascript from "../assets/portfolio/javascript.png";
+import react01 from "../assets/portfolio/react01.png";
+import tailwind from "../assets/portfolio/tailwind.png";
+import node from "../assets/portfolio/node.png";
+import express from "../assets/portfolio/express.png";
+import github from "../assets/portfolio/github.png";
+import mongodb from "../assets/portfolio/mongodb.webp";
 
 const Expeirence = () => {
   const techs = [
     {
       id: 1,
-      src: image,
+      src: html,
       title: "HTML",
       style: "shadow-orange-500",
     },
     {
       id: 2,
-      src: image,
+      src: css,
       title: "CSS",
       style: "shadow-blue-500",
     },
     {
       id: 3,
-      src: image,
+      src: javascript,
       title: "javascript",
       style: "shadow-yellow-500",
     },
     {
       id: 4,
-      src: image,
+      src: react01,
       title: "React",
       style: "shadow-Blue-500",
     },
     {
       id: 5,
-      src: image,
+      src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-500",
     },
     {
       id: 6,
-      src: image,
-      title: "Next Js",
+      src: node,
+      title: "Node.js",
       style: "shadow-orange-500",
     },
     {
       id: 7,
-      src: image,
-      title: "MongoDb",
+      src: express,
+      title: "Express.js",
       style: "shadow-white-500",
     },
     {
       id: 8,
-      src: image,
-      title: "Github",
+      src: mongodb,
+      title: "MongoDb",
       style: "shadow-gray-500",
     },
+    {
+      id: 9,
+      src: github,
+      title: "Github",
+      style: "shadow-gray-500",
+    }
   ];
   return (
     <div
