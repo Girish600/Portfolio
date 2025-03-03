@@ -1,7 +1,9 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div
       name="home"
@@ -17,12 +19,12 @@ const Header = () => {
             experience in building scalable applications.
           </p>
         </div>
-        <button className="group-hover:rotate-90 text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+        <NavLink to={'/portfolio'}  className="group-hover:rotate-90 text-white w-fit px-6 py-2 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
           Portfolio{" "}
           <span className="hover:rotate-90 duration-300">
             <FaArrowRight size={20} className="ml-1" />
           </span>
-        </button>
+        </NavLink>
       </div>
     </div>
   );

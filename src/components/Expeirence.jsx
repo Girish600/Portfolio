@@ -33,7 +33,7 @@ const Expeirence = () => {
       id: 4,
       src: react01,
       title: "React",
-      style: "shadow-Blue-500",
+      style: "shadow-blue-500",
     },
     {
       id: 5,
@@ -51,7 +51,7 @@ const Expeirence = () => {
       id: 7,
       src: express,
       title: "Express.js",
-      style: "shadow-white-500",
+      style: "shadow-gray-500",
     },
     {
       id: 8,
@@ -69,7 +69,7 @@ const Expeirence = () => {
   return (
     <div
       name="experience"
-      className="w-full bg-gradient-to-b from-black text-white py-20"
+      className="w-full bg-gradient-to-b from-gray-800 to-black text-white py-20"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col w-full">
         <div>
