@@ -10,7 +10,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: prescripto,
-      demo: "https://prescripto-clone-backend.onrender.com/",
+      demo: "http://43.204.96.141:8070/",
       code: "https://github.com/Girish600/prescripto_clone",
     },
     {
