@@ -28,7 +28,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: walmart_clone,
-      demo: "https://prescripto-clone-backend.onrender.com/",
+      demo: "https://walmart-clone-xgcm.onrender.com/",
       code: "https://github.com/Girish600/prescripto_clone",
     },
     {
